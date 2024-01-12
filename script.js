@@ -12,7 +12,7 @@ menuIcon.addEventListener('click', () => {
             menuList.style.transition = 'opacity .25s ease-in-out';
             menuList.style.opacity = '1';
         }, 250);
-        document.querySelector('header').classList.add('nav-open');
+        //document.querySelector('header').classList.add('nav-open');
     } else {
         hamburgerIcon.classList.add('fa-bars');
         hamburgerIcon.classList.remove('fa-xmark');
@@ -22,6 +22,6 @@ menuIcon.addEventListener('click', () => {
             menuList.style.display = 'none';
             menuList.style.opacity = '1';
         }, 250);
-        document.querySelector('header').classList.remove('nav-open');
+        //document.querySelector('header').classList.remove('nav-open');
     }
 });
